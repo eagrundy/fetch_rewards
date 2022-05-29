@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  get 'balances/index'
+  get 'balances/new'
+  get 'balances/create'
+  get 'balances/edit'
+  get 'balances/update'
+  get 'balances/delete'
+  get 'balances/show'
   get 'use_points/index'
   get 'use_points/new'
   get 'use_points/create'
